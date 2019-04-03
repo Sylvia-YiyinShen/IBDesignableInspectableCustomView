@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		225498ED2254C68A0061415C /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225498EC2254C68A0061415C /* CustomView.swift */; };
 		D96FF59A2251B08200ADADA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96FF5992251B08200ADADA7 /* AppDelegate.swift */; };
 		D96FF59C2251B08200ADADA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96FF59B2251B08200ADADA7 /* ViewController.swift */; };
 		D96FF59F2251B08200ADADA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96FF59D2251B08200ADADA7 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		225498EC2254C68A0061415C /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomView.swift; path = CustomView/CustomView.swift; sourceTree = "<group>"; };
 		D96FF5962251B08200ADADA7 /* IBDesignableInspectable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBDesignableInspectable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96FF5992251B08200ADADA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D96FF59B2251B08200ADADA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		225498EB2254C6770061415C /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				225498EC2254C68A0061415C /* CustomView.swift */,
+			);
+			name = CustomView;
+			sourceTree = "<group>";
+		};
 		D96FF58D2251B08200ADADA7 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		D96FF5982251B08200ADADA7 /* IBDesignableInspectable */ = {
 			isa = PBXGroup;
 			children = (
+				225498EB2254C6770061415C /* CustomView */,
 				D96FF5992251B08200ADADA7 /* AppDelegate.swift */,
 				D96FF59B2251B08200ADADA7 /* ViewController.swift */,
 				D96FF59D2251B08200ADADA7 /* Main.storyboard */,
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				225498ED2254C68A0061415C /* CustomView.swift in Sources */,
 				D96FF59C2251B08200ADADA7 /* ViewController.swift in Sources */,
 				D96FF59A2251B08200ADADA7 /* AppDelegate.swift in Sources */,
 			);
